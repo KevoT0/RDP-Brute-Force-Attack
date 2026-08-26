@@ -58,6 +58,8 @@ SecurityEvent
 
 The pattern itself is diagnostic. The list is dominated by **common default usernames** and **localised admin names** (`ADMINISTRADOR` – Spanish, `ADMINISTRATEUR` – French). A human would not guess these; an automated tool with a built-in wordlist would. This is a **dictionary spray** — the attacker is guessing both usernames *and* passwords, so most of these accounts likely do not even exist on the target. A failed logon is recorded regardless of whether the account exists.
 
+![Failed Logon](https://github.com/KevoT0/RDP-Brute-Force-Attack/blob/main/5.png)
+
 ### Step 2 — Add the target asset
 
 Grouping by `Computer` reveals *what* is under attack.
@@ -94,6 +96,7 @@ SecurityEvent
 
 **No `administrator`, no `admin`, no attacker-guessed account succeeded.**
 
+![Successful Logon](https://github.com/KevoT0/RDP-Brute-Force-Attack/blob/main/5.png)
 ---
 
 ## Findings & analysis
