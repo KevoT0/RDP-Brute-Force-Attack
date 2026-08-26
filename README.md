@@ -96,7 +96,7 @@ SecurityEvent
 
 **No `administrator`, no `admin`, no attacker-guessed account succeeded.**
 
-![Successful Logon](https://github.com/KevoT0/RDP-Brute-Force-Attack/blob/main/5.png)
+![Successful Logon](https://github.com/KevoT0/RDP-Brute-Force-Attack/blob/main/6.png)
 ---
 
 ## Findings & analysis
